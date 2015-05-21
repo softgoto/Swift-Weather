@@ -258,6 +258,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gP9-C2-xRt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="s0l-A1-BtV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKP-vy-342">
@@ -347,26 +348,13 @@
                         <viewControllerLayoutGuide type="bottom" id="cyx-91-bjK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Nmz-Kn-jO3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhv-J3-bhe">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.65554704799999997" blue="0.75494329839999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="b=a+c babababasdfbabab">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veG-p9-Yx1">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="E+F=G">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cq-qV-sv9">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.13955425839351307" green="0.80598958333333337" blue="0.45579470786397425" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="b=a+c babababasdfbfasdfasdfabab">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -374,45 +362,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Nhv-J3-bhe" firstAttribute="top" secondItem="0Cq-qV-sv9" secondAttribute="bottom" constant="8" id="0rQ-TE-r1W">
-                                <variation key="widthClass=compact" constant="40"/>
-                            </constraint>
-                            <constraint firstItem="veG-p9-Yx1" firstAttribute="leading" secondItem="Nhv-J3-bhe" secondAttribute="trailing" constant="43" id="2h6-6W-DFa"/>
                             <constraint firstAttribute="bottom" secondItem="Nhv-J3-bhe" secondAttribute="bottom" constant="20" id="AK9-YW-3XT"/>
                             <constraint firstAttribute="centerX" secondItem="Nhv-J3-bhe" secondAttribute="centerX" id="B24-1U-FWq">
                                 <variation key="widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="Nhv-J3-bhe" firstAttribute="bottom" secondItem="veG-p9-Yx1" secondAttribute="bottom" id="P64-o1-pQT"/>
-                            <constraint firstItem="Nhv-J3-bhe" firstAttribute="leading" secondItem="0Cq-qV-sv9" secondAttribute="leading" id="wen-Op-I9d"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Nhv-J3-bhe"/>
-                                <exclude reference="veG-p9-Yx1"/>
-                                <exclude reference="0Cq-qV-sv9"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0rQ-TE-r1W"/>
                                 <exclude reference="AK9-YW-3XT"/>
                                 <exclude reference="B24-1U-FWq"/>
-                                <exclude reference="P64-o1-pQT"/>
-                                <exclude reference="wen-Op-I9d"/>
-                                <exclude reference="2h6-6W-DFa"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Nhv-J3-bhe"/>
-                                <include reference="veG-p9-Yx1"/>
-                                <include reference="0Cq-qV-sv9"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0rQ-TE-r1W"/>
                                 <include reference="AK9-YW-3XT"/>
                                 <include reference="B24-1U-FWq"/>
-                                <include reference="P64-o1-pQT"/>
-                                <include reference="wen-Op-I9d"/>
-                                <include reference="2h6-6W-DFa"/>
                             </mask>
                         </variation>
                     </view>
